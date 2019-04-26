@@ -1,3 +1,25 @@
+# theme for blog.woodenstake.se
+
+## Developing theme with local feedback
+
+Run a local instance of ghost using ghost-cli:
+
+    npm install ghost-cli@latest -g
+
+Then install in an empty folder
+
+    ghost install local 
+
+Make a soft link to this repo from content/themes, in my case `ws-ghost-theme@ -> ../../../ws-ghost-theme/`
+
+Possibly need to restart if this wasn't there on startup
+
+    ghost stop
+    ghost start
+
+When happy, just `yarn zip` and upload to production site.
+
+
 # Ghost Starter Theme
 
 A starter framework for Ghost themes! Fork this repository and start your development here with all the main things you need to develop a custom Ghost theme.

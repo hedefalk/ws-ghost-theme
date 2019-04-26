@@ -1,7 +1,7 @@
 {
-    "name": "starter",
-    "description": "A starter theme for Ghost.",
-    "demo": "https://starter.ghost.io",
+    "name": "ws-ghost-theme",
+    "description": "Ghost theme for blog.woodenstake.se.",
+    "demo": "https://blog.woodenstake.se",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=2.0.0",
